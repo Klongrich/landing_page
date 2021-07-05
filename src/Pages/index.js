@@ -4,7 +4,7 @@ import styled from "styled-components"
 import Navbar from '../Components/navbar'
 import ProjectBox from "../Components/project"
 
-import {Colors, Fonts} from "../Themes/styles"
+import {Colors} from "../Themes/styles"
 
 import nftswapsImage from "./nftyswaps.png"
 import hashinkImage from "./hashink.png";
@@ -35,6 +35,8 @@ const Container = styled.div`
     background-color: ${Colors.black};
 
     height: 2000px;
+    margin: -10px;
+    margin-top: -20px;
 `
 
 export default function Homepage () {

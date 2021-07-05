@@ -27,7 +27,7 @@ export default function Project({name, link, image} ) {
         <>
         <ProjectBox>
             <h1> {name} </h1>
-            <img src={image} />
+            <img src={image} alt="project-image" />
             <h3> Link: <a href="/"> {link} </a></h3>    
         </ProjectBox>
         </>
