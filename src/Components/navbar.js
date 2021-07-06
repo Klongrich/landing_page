@@ -22,11 +22,6 @@ export default function NavBar() {
             <h2 Style="text-align:left">
                 Dapp Portfolio
             </h2>
-
-            <h2 Style="text-align: right;
-                        margin-top: -79px">
-                Kyle Longrich
-            </h2>
         </Container>
         </>
     )
