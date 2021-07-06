@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 
 import Navbar from '../Components/navbar'
+import Footer from "../Components/footer"
 import ProjectBox from "../Components/project"
 
 import {Colors} from "../Themes/styles"
@@ -34,7 +35,7 @@ const ProjectData = [
 const Container = styled.div`
     background-color: ${Colors.black};
 
-    height: 2000px;
+    height: 100%;
     margin: -10px;
     margin-top: -20px;
 `
@@ -52,6 +53,7 @@ export default function Homepage () {
                                 />
                 </>
             ))}
+            <Footer />
         </Container>
         </>
     )
