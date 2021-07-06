@@ -38,6 +38,8 @@ const Container = styled.div`
     height: 100%;
     margin: -10px;
     margin-top: -20px;
+
+    text-align:center;
 `
 
 export default function Homepage () {

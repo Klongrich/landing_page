@@ -3,6 +3,9 @@ import styled from "styled-components"
 
 import {Twitter} from "@styled-icons/boxicons-logos/Twitter"
 import {Github} from "@styled-icons/boxicons-logos/Github"
+import {Instagram} from "@styled-icons/boxicons-logos/Instagram"
+import {Snapchat} from "@styled-icons/boxicons-logos/Snapchat"
+
 
 import {Colors, Fonts} from "../Themes/styles"
 
@@ -62,7 +65,8 @@ const IconsBox = styled.div`
     background-color: ${Colors.black};
 
     a {
-        margin-left: 35px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 `
 
@@ -109,11 +113,19 @@ export default function Footer() {
 
                 <IconsBox>
                     <a href="https://twitter.com/longrichk">
-                        <Twitter size="50" color="blue"/>
+                        <Twitter size="50" color={Colors.twitter}/>
                     </a>
 
                     <a href="https://github.com/klongrich">
                         <Github size="50" color="black" />
+                    </a>
+
+                    <a href="https://github.com/klongrich">
+                        <Instagram size="50" color="white" />
+                    </a>
+
+                    <a href="https://github.com/klongrich">
+                        <Snapchat size="50" color={Colors.snapchat} />
                     </a>
                 </IconsBox>
 

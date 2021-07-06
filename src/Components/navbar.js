@@ -19,7 +19,7 @@ export default function NavBar() {
     return(
         <>
         <Container>
-            <h2>
+            <h2 Style="text-align:left">
                 Dapp Portfolio
             </h2>
 

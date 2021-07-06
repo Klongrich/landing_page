@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import styled from "styled-components"
 import {Colors, Fonts} from "../Themes/styles"
 
@@ -12,9 +12,6 @@ const ProjectBox = styled.div`
     padding: 10px;
 
     img {
-        height: 100%;
-        width: 100%;
-
         border-radius: 20px;
         border: 2px solid ${Colors.darkblue};
     }
@@ -34,16 +31,37 @@ const ProjectBox = styled.div`
 `
 
 export default function Project({name, link, image} ) {
+    
+
+    if (window.innerWidth > 999) {
     return(
         <>
         <ProjectBox>
             <h1> {name} </h1>
             <a href={link}>
-                <img src={image} alt="project" />
+                <img src={image} 
+                    alt="project"
+                    height="60%"
+                    width="60%" />
             </a>
             <h3> Link: <a href={link}> {link} </a></h3>    
         </ProjectBox>
         </>
     )
-
+    } else {
+    return (
+        <>
+        <ProjectBox>
+        <h1> {name} </h1>
+        <a href={link}>
+            <img src={image} 
+                 alt="project"
+                 height="100%"
+                 width="100%" />
+        </a>
+        <h3> Link: <a href={link}> {link} </a></h3>    
+        </ProjectBox>
+    </>
+    )
+    }
 }
