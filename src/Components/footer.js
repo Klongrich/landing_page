@@ -54,15 +54,16 @@ const MessageInput = styled.textarea`
 
 const IconsBox = styled.div`
 
-    text-align:right;
-    padding-right: 20px;
-    margin-top: -60px;
-    padding-bottom: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: ${Colors.black};
 
     a {
-        margin-right: 35px;
+        margin-left: 35px;
     }
-
 `
 
 export default function Footer() {

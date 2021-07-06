@@ -12,8 +12,8 @@ const ProjectBox = styled.div`
     padding: 10px;
 
     img {
-        height: 60%;
-        width: 60%;
+        height: 100%;
+        width: 100%;
 
         border-radius: 20px;
         border: 2px solid ${Colors.darkblue};
