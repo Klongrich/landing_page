@@ -13,22 +13,22 @@ import trymetacardsImage from "./trymetacards.png"
 
 const ProjectData = [
     {
-        id: 0,
-        name: "NftySwaps",
-        image: nftswapsImage,
-        link: "https://nftyswaps.com/"
-    },
-    {
-        id: 1,
+        id: 2,
         name: "Hash Ink",
         image: hashinkImage,
         link: "https://hashink.app/"
-    },    
+    },
     {
-        id: 2,
+        id: 0,
         name: "TryMetaCards",
         image: trymetacardsImage,
         link: "https://trymetacards.com/"
+    },
+    {
+        id: 1,
+        name: "NftySwaps",
+        image: nftswapsImage,
+        link: "https://nftyswaps.com/"
     }
 ]
 
