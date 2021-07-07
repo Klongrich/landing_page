@@ -22,7 +22,7 @@ const ProjectData = [
         id: 0,
         name: "TryMetaCards",
         image: trymetacardsImage,
-        link: "https://trymetacards.com/"
+        link: "https://mymetacards.com/"
     },
     {
         id: 1,
